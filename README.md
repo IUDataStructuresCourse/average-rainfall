@@ -1,4 +1,4 @@
-# Average Rainfall, Lab 1
+# Lab 1: Average Rainfall
 
 1. Download and install Eclipse and work through the tutorial.
 
