@@ -1,7 +1,7 @@
 # Lab 1: Average Rainfall
 
 1. Download and install [Eclipse](https://eclipse.org/downloads/) and
-   work through the tutorial in this repository.
+   work through the [tutorial](./Eclipse-IDE-Tutorial.pdf).
 
 2. Read the following tutorial for using Github.
 
