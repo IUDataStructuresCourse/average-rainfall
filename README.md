@@ -18,12 +18,13 @@
      create a `main` method.
    5. Verify that you can run this Java program by changing the `main`
      method as follows:
-~~~~
+     
+        ~~~~
         public static void main(String[] args) {
             System.out.println("Hello, World");
         }
-~~~~
-
+        ~~~~
+	
      and click on the green button with the 'play' symbol, that is, a
      rightward pointing triangle. In the console window, you should
      see the output `Hello, World`.
