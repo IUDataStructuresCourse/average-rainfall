@@ -6,27 +6,28 @@
    http://homes.soic.indiana.edu/classes/spring2016/csci/c343-yye/github.php
 
 2. Eclipse
-   * Download and install [Eclipse](https://eclipse.org/downloads/) and
+   1. Download and install [Eclipse](https://eclipse.org/downloads/) and
      work through the [tutorial](./Eclipse-IDE-Tutorial.pdf).
-   * Open Eclipse and set the workspace directory to the directory
+   2. Open Eclipse and set the workspace directory to the directory
      created when you cloned the average-rainfall repository.
-   * Create a new Java project with project name Rainfall.
+   3. Create a new Java project with project name Rainfall.
      In 'Project layout', choose 'Use project folder as root
      for sources and class files'. Click 'Finish'.
-   * Create a new Java class using the menu sequence File=>New=>Class.
+   4. Create a new Java class using the menu sequence File=>New=>Class.
      Name the class `Rainfall` and click on the option to
      create a `main` method.
-   * Verify that you can run this Java program by changing the `main`
+   5. Verify that you can run this Java program by changing the `main`
      method as follows:
 
-	public static void main(String[] args) {
-		System.out.println("Hello, World");
-	}
+        public static void main(String[] args) {
+                System.out.println("Hello, World");
+        }
 
      and click on the green button with the 'play' symbol, that is, a
      rightward pointing triangle. In the console window, you should
      see the output `Hello, World`.
-   
+   6. Use git to add, commit, and push the Rainfall directory and its contents
+     to your repository. Verify on github.com that the push was successfull.
 
 3. Implement a Java program that consumes a space-separated sequence
    of numbers representing daily rainfall amounts as entered by a
@@ -37,4 +38,5 @@
    the non-negative values in the sequence up to the first -999 (if it
    shows up).  There may be negative numbers other than -999 in the
    sequence. Turn in your program by using git to do a commit and push
-   on your version of this repository.
+   on your version of this repository. Verify on github.com
+   that the push was successfull and contains your working program.
