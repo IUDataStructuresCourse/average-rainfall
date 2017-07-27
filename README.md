@@ -6,8 +6,8 @@
    http://homes.soic.indiana.edu/classes/spring2016/csci/c343-yye/github.php
 
 2. Eclipse
-    1. Download and install [Eclipse](https://eclipse.org/downloads/) and
-      work through the [tutorial](./Eclipse-IDE-Tutorial.pdf).
+    1. Download and install [Eclipse](https://eclipse.org/downloads/)
+       if you have not already.
     2. Open Eclipse and set the workspace directory to the directory
       created when you cloned the average-rainfall repository.
     3. Create a new Java project with project name 'Rainfall'.
@@ -31,8 +31,8 @@
    6. Use git to add, commit, and push the Rainfall directory and its contents
      to your repository. Verify on github.com that the push was successfull.
 
-3. Implement a Java program that consumes a space-separated sequence
-   of numbers representing daily rainfall amounts as entered by a
+3. Change the `main` method to consume a space-separated sequence
+   of numbers representing daily rainfall amounts as entered by the
    user.  Use
    [java.util.Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
    to obtain the user input.  The sequence may contain the number -999
