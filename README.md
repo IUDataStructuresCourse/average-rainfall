@@ -39,6 +39,8 @@
    indicating the end of the data of interest.  Output the average of
    the non-negative values in the sequence up to the first -999 (if it
    shows up).  There may be negative numbers other than -999 in the
-   sequence. Turn in your program by using git to do a commit and push
+   sequence. Test your program on diverse inputs that exercise the
+   different parts of your code and fix the bugs that you find.
+   Turn in your program by using git to do a commit and push
    on your version of this repository. Verify on github.com
    that the push was successfull and contains your working program.
