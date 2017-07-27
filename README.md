@@ -31,16 +31,16 @@
    6. Use git to add, commit, and push the Rainfall directory and its contents
      to your repository. Verify on github.com that the push was successfull.
 
-3. Change the `main` method to consume a space-separated sequence
-   of numbers representing daily rainfall amounts as entered by the
-   user.  Use
+3. Change the `main` method to consume a space-separated sequence of
+   numbers representing daily rainfall amounts as entered by the user.
+   Use
    [java.util.Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
    to obtain the user input.  The sequence may contain the number -999
    indicating the end of the data of interest.  Output the average of
    the non-negative values in the sequence up to the first -999 (if it
    shows up).  There may be negative numbers other than -999 in the
    sequence. Test your program on diverse inputs that exercise the
-   different parts of your code and fix the bugs that you find.
-   Turn in your program by using git to do a commit and push
-   on your version of this repository. Verify on github.com
-   that the push was successfull and contains your working program.
+   different parts of your code and fix the bugs that you find.  Save
+   your program. Turn in your program by using git to do a commit and
+   push on your version of this repository. Verify on github.com that
+   the push was successfull and contains your working program.
