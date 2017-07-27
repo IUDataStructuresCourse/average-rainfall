@@ -10,7 +10,7 @@
      work through the [tutorial](./Eclipse-IDE-Tutorial.pdf).
    2. Open Eclipse and set the workspace directory to the directory
      created when you cloned the average-rainfall repository.
-   3. Create a new Java project with project name Rainfall.
+   3. Create a new Java project with project name 'Rainfall'.
      In 'Project layout', choose 'Use project folder as root
      for sources and class files'. Click 'Finish'.
    4. Create a new Java class using the menu sequence File=>New=>Class.
@@ -18,11 +18,11 @@
      create a `main` method.
    5. Verify that you can run this Java program by changing the `main`
      method as follows:
-
+~~~~
         public static void main(String[] args) {
-                System.out.println("Hello, World");
+            System.out.println("Hello, World");
         }
-
+~~~~
      and click on the green button with the 'play' symbol, that is, a
      rightward pointing triangle. In the console window, you should
      see the output `Hello, World`.
