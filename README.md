@@ -14,9 +14,9 @@
      In 'Project layout', choose 'Use project folder as root
      for sources and class files'. Click 'Finish'.
    * Create a new Java class using the menu sequence File=>New=>Class.
-     Name the class 'Rainfall' and click on the option to
-     create a 'main' method.
-   * Verify that you can run this Java program by changing the 'main'
+     Name the class `Rainfall` and click on the option to
+     create a `main` method.
+   * Verify that you can run this Java program by changing the `main`
      method as follows:
 
 	public static void main(String[] args) {
@@ -25,7 +25,7 @@
 
      and click on the green button with the 'play' symbol, that is, a
      rightward pointing triangle. In the console window, you should
-     see the output 'Hello, World'.
+     see the output `Hello, World`.
    
 
 3. Implement a Java program that consumes a space-separated sequence
