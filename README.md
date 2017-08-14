@@ -5,15 +5,11 @@
 
    http://homes.soic.indiana.edu/classes/spring2016/csci/c343-yye/github.php
 
-2. Eclipse
-    1. Download and install [Eclipse](https://eclipse.org/downloads/)
-       if you have not already.
-    2. Open Eclipse and set the workspace directory to the directory
-      created when you cloned the average-rainfall repository.
-    3. Create a new Java project with project name 'Rainfall'.
-      In 'Project layout', choose 'Use project folder as root
-      for sources and class files'. Click 'Finish'.
-    4. Create a new Java class using the menu sequence File=>New=>Class.
+2. Code Editor: IntelliJ IDEA
+    1. Follow the instructions on the course web page for installing
+	   IntelliJ IDEA.
+    2. Create a new project using the check out from version control option (Git) .
+    3. Create a new Java class using the menu sequence File=>New=>Class.
       Name the class `Rainfall` and click on the option to
       create a `main` method.
     5. Verify that you can run this Java program by changing the `main`
