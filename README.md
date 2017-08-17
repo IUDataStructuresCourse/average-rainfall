@@ -8,7 +8,7 @@
 2. Code Editor: IntelliJ IDEA
     1. Follow the instructions on the course web page for installing
 	   IntelliJ IDEA.
-    2. Create a new project using the 'check out from version control' option (Git) .
+    2. Create a new project using the 'check out from version control' option (GitHub) .
     3. Create a new Java class and name the class `Rainfall`.
 	  Create a `main` method in this class.
     5. Verify that you can run this Java program by changing the `main`
