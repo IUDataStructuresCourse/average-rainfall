@@ -1,16 +1,16 @@
-import java.util.ArrayList;
 
 public class Main {
 
     public static double average_rainfall(int[] rainfall) {
-       // put your code here
-        throw new UnsupportedOperationException("not implemented yet!");
+        // implement this function
+        return 0.0;
     }
 
     public static void main(String []args) {
+        // Sanity check that -ea flag is enabled for 'assert'.
         try {
             assert false;
-            System.out.println("Problem! Enable exceptions with VM options: -ea");
+            System.out.println("Problem! Enable 'assert' with VM options: -ea");
             java.lang.System.exit(-1);
         } catch (java.lang.AssertionError e) { }
 
@@ -19,8 +19,8 @@ public class Main {
             double average = average_rainfall(A);
             assert average == 2.0;
         }
-        // add three more tests here
 
         System.out.println("tests passed");
     }
 }
+
