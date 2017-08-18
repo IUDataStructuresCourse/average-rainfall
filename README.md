@@ -1,31 +1,28 @@
 # Lab 1: Average Rainfall
 
-1. Read the following tutorial for using Github and clone your version
-   of the average-rainfall repository onto your computer.
+1. Java Installation
 
-   http://homes.soic.indiana.edu/classes/spring2016/csci/c343-yye/github.php
+   If your computer does not already have Java Version 8 installed,
+   you can download and install it from the following URL:
+   
+   https://java.com/en/download/
 
-2. Code Editor: IntelliJ IDEA
-    1. Follow the instructions on the course web page for installing
-	   IntelliJ IDEA.
-    2. Create a new project using the 'check out from version control' option,
-	   selecting GitHub and password access.
-    3. Create a new Java class and name the class `Rainfall`.
-	  Create a `main` method in this class.
-    5. Verify that you can run this Java program by changing the `main`
-        method as follows:
-     
-        ~~~~
-        public static void main(String[] args) {
-            System.out.println("Hello, World");
-        }
-        ~~~~
+2. IntelliJ Project Setup 
+
+  * Create a new project using the 'check out from version control'
+    option, selecting GitHub and password access. Use the URL for
+	your repository for this assignment, somehting like:
+	https://github.com/IUDataStructuresCourse/lab1-average-rainfall-<username>.git
 	
-        and click on the button with the 'play' symbol, that is, a
-        rightward pointing triangle. In the console window, you should
-        see the output `Hello, World`.
-   6. Use git to add, commit, and push the Rainfall directory and its contents
-     to your repository. Verify on github.com that the push was successfull.
+  * Create a 'configuration' for running the program by going to
+    the menu 'Run > Edit Configurations'. 
+	Click on the '+' and choose 'Application'.
+	Name the configuration something like 'Run Main'. 
+	Choose 'Main' as the 'Main class'. In the VM options, enter '-ea'.
+	Verify that your IntelliJ setup is correct by clicking on
+	the run button (green rightward-pointing triangle in the toolbar).
+	You should see an exception in the console window pointing to
+	the assert on line 22.
 
 3. Implement a static method named `average_rainfall` that takes as
    input an array of integers (int) and returns the average
