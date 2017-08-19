@@ -2,20 +2,20 @@
 
 1. Java Installation
 
-   If your computer does not already have Java Version 8 installed,
-   you can download and install it from the following URL:
+    If your computer does not already have Java Version 8 installed,
+    you can download and install it from the following URL:
    
-   https://java.com/en/download/
+    https://java.com/en/download/
 
 2. IntelliJ Project Setup
 
-  Create a new project using the menu 'File' > 'New' > 'Project from Version Control'
-  selecting GitHub and password access. Use the URL for your repository for this assignment,
-  something like: https://github.com/IUDataStructuresCourse/lab-1-average-rainfall-<username>.git
-  Verify that the new project is configured properly by building the
-  project and then running the test. It should fail with an AssertionFailedError.
+    Create a new project using the menu 'File' > 'New' > 'Project from Version Control'
+   selecting GitHub and password access. Use the URL for your repository for this assignment,
+   something like: https://github.com/IUDataStructuresCourse/lab-1-average-rainfall-<username>.git
+   Verify that the new project is configured properly by building the
+   project and then running the test. It should fail with an AssertionFailedError.
 
-3. Implement average_rainfall
+3. Implement `average_rainfall`
 
    In file `Main.java`, mplement the method named `average_rainfall` that
    takes as input an array of integers (int) and returns the average
@@ -30,9 +30,11 @@
    exercise the different parts of your code and fix the bugs that you
    find.  Put your tests in the class `MainTest` in the `test` diretory.
 
-4. Submit your assignment by committing and pushing it to github.
-  Go to the menu 'VCS' > 'Git' > 'Commit Directory ...',
-  enter a commit message like 'Hurrah!' and push the 'Commit'
-  button, selecting 'Commit and Push' and then again 'Push'
-  on the next window. Verify on github.com that the push was successfull 
-  and contains your working program.
+4. Submission
+
+   Submit your assignment by committing and pushing it to github.
+   Go to the menu 'VCS' > 'Git' > 'Commit Directory ...',
+   enter a commit message like 'Hurrah!' and push the 'Commit'
+   button, selecting 'Commit and Push' and then again 'Push'
+   on the next window. Verify on github.com that the push was successfull 
+   and contains your working program.
