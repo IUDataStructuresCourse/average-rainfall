@@ -7,16 +7,17 @@
    
    https://java.com/en/download/
 
-2. IntelliJ Project Setup 
+2. IntelliJ Project Setup
 
-  * Create a new project using the menu 'File' > 'New' > 'Project from Version Control'
-    selecting GitHub and password access. Use the URL for
-	your repository for this assignment, something like:
-	https://github.com/IUDataStructuresCourse/lab-1-average-rainfall-<username>.git
-	Verify that the new project is configured properly by building the
-	project and then running the test. It should fail with an AssertionFailedError.
+  Create a new project using the menu 'File' > 'New' > 'Project from Version Control'
+  selecting GitHub and password access. Use the URL for your repository for this assignment,
+  something like: https://github.com/IUDataStructuresCourse/lab-1-average-rainfall-<username>.git
+  Verify that the new project is configured properly by building the
+  project and then running the test. It should fail with an AssertionFailedError.
 
-3. In file `Main.java`, mplement the method named `average_rainfall` that
+3. Implement average_rainfall
+
+   In file `Main.java`, mplement the method named `average_rainfall` that
    takes as input an array of integers (int) and returns the average
    (double). The input array represents daily rainfall amounts.  The
    array may contain the number -999 indicating the end of the data of
