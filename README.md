@@ -9,9 +9,9 @@
 
 2. IntelliJ Project Setup
 
-    Create a new project using the menu 'File' > 'New' > 'Project from Version Control'
+   Create a new project using the menu 'File' > 'New' > 'Project from Version Control'
    selecting GitHub and password access. Use the URL for your repository for this assignment,
-   something like: https://github.com/IUDataStructuresCourse/lab-1-average-rainfall-<username>.git
+   something like: https://github.com/IUDataStructuresCourse/lab-1-average-rainfall-[username].git
    Verify that the new project is configured properly by building the
    project and then running the test. It should fail with an AssertionFailedError.
 
