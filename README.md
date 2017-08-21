@@ -7,7 +7,13 @@
    
     https://java.com/en/download/
 
-2. IntelliJ Project Setup
+2. Git installation
+
+    If your computer does not already have git installed, you can download and install it from the following URL:
+
+    https://git-scm.com/downloads
+
+3. IntelliJ Project Setup
 
    Create a new project using the menu 'File' > 'New' > 'Project from Version Control'
    selecting GitHub and password access. Use the URL for your repository for this assignment,
@@ -15,7 +21,7 @@
    Verify that the new project is configured properly by building the
    project and then running the test. It should fail with an AssertionFailedError.
 
-3. Implement `average_rainfall`
+4. Implement `average_rainfall`
 
    In file `Main.java`, mplement the method named `average_rainfall` that
    takes as input an array of integers (int) and returns the average
@@ -30,7 +36,7 @@
    exercise the different parts of your code and fix the bugs that you
    find.  Put your tests in the class `MainTest` in the `test` diretory.
 
-4. Submission
+5. Submission
 
    Submit your assignment by committing and pushing it to github.
    Go to the menu 'VCS' > 'Git' > 'Commit Directory ...',
